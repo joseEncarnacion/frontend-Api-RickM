@@ -1,0 +1,34 @@
+.card-style {
+    border-radius: 2rem;
+    box-shadow:3px 2px 15px #b2b2b2;
+
+}
+
+
+.titleCard{
+    font-size: 2rem;
+    
+}
+
+.cardText {
+    width: 30%;
+    margin: 0 auto
+    
+}
+
+@media screen and (max-width: 480px) {
+    .cardText {
+        width: 30%;
+        margin: 0 auto
+        
+    }
+}
+
+
+@media screen and (min-width: 680px) {
+    .cardText {
+        width: 50%;
+        margin: 0 auto
+        
+    }
+}
